@@ -12,25 +12,34 @@ body {
 }
 p {
 	font-size: 20px;
-	font-family: serif;
+	font-family: Times;
+	line-height: 1.5;
 }
 
 td {
 	font-size: 20px;
-	font-family: serif;
+	font-family: Times;
+	line-height: 1.5;
+	border-collapse:collapse;
 }
+tr {
+	border-style: solid;
+	border-color: grey;
+	border-width: 1px;
+}
+
 h1 {
 	font-size: 50px;
-	font-family: serif;
+	font-family: "Helvetica Neue";
 	letter-spacing: 0.15em;
 }
 
 h2 {
-	font-size: 24px;
-	font-family: Courier;
-	font-style: bold;
+	font-size: 22px;
+	font-family: Times;
 	text-transform: uppercase;
 	letter-spacing: 0.15em;
+	line-height: 0.0;
 }
 .subtitle {
 	font-size: 20px;
@@ -39,22 +48,35 @@ h2 {
 	letter-spacing: 0.15em;
 }
 li {font-size: 20px;
-	font-family: serif;
+	font-family: Times;
+	line-height: 1.5;
 }
 
-
-#vertical {
-	-moz-transform: rotate (-90deg);
-	-webkit-transform: rotate (90deg);
-	-o-transform: rotate (90deg);
-	-writing-mode: tb-rl;
-	height: 100px;
-	width: 50 px;
-	border: collapse;
-}
 .schedule {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
 	border-width: thin;
-	border-style: dotted;
+	border-style: solid;
 	border-color: grey;
 }
+
+.vertical {
+	-moz-transform: rotate (-90deg);
+	-webkit-transform: rotate (-90deg);
+	-o-transform: rotate (90deg);
+	writing-mode: tb-rl;
+	display:block;
+	bottom:0;
+    width:20px;
+    height:20px;
 	
+}
+
+.d0 {
+	background-color: lavender;
+}
+	
+.black {
+	background-color: black;
+}
