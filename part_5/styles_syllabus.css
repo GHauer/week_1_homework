@@ -1,0 +1,60 @@
+/* Make the invisible visible  {
+  border: thin red solid;
+}
+*/
+body {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	
+}
+p {
+	font-size: 20px;
+	font-family: serif;
+}
+
+td {
+	font-size: 20px;
+	font-family: serif;
+}
+h1 {
+	font-size: 50px;
+	font-family: serif;
+	letter-spacing: 0.15em;
+}
+
+h2 {
+	font-size: 24px;
+	font-family: Courier;
+	font-style: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+}
+.subtitle {
+	font-size: 20px;
+	font-style:italic;
+	text-align:center;
+	letter-spacing: 0.15em;
+}
+li {font-size: 20px;
+	font-family: serif;
+}
+
+
+#vertical {
+	-moz-transform: rotate (-90deg);
+	-webkit-transform: rotate (90deg);
+	-o-transform: rotate (90deg);
+	-writing-mode: tb-rl;
+	height: 100px;
+	width: 50 px;
+	border: collapse;
+}
+.schedule {
+	border-width: thin;
+	border-style: dotted;
+	border-color: grey;
+}
+	
